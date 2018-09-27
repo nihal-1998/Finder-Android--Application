@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nihalpatel.slashscreen.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="                           Lost or Found"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="                  What did you find or lost"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="                       Lost or Found date"
+            android:inputType="time"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="398dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:hint="                       Lost or Found time"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="110dp"
+            android:layout_below="@+id/editText3"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_marginTop="20dp" />
+
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="325dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText4"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="                      Your mobile No."
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="             place where you found or lost"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp" />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="           Enter description about the thing"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="send to gmail" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="reset all activity" />
+    </LinearLayout>
+
+
+</ScrollView>

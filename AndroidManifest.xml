@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nihalpatel.slashscreen">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens= "true"
+        android:anyDensity="true"
+        />
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/s"
+    android:label="Finder"
+    android:roundIcon="@mipmap/s"
+    android:supportsRtl="true"
+
+    android:theme="@style/AppTheme">
+
+    <activity
+
+        android:name=".sreen"
+        android:label="Finder">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".button"
+        android:label="TERMS AND CONDITIONS">
+
+    </activity>
+    <activity
+        android:name=".MainActivity"
+        android:label="LOST COMPLETE">
+    </activity>
+
+    </application>
+</manifest>
+
+
+
+
+
